@@ -1,0 +1,45 @@
+.flex{
+    display: flex;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+span{
+    display: inline;
+}
+
+.p1{
+    display: inline;
+}
+
+h2{
+    display: inline;
+    padding-right: 30px;
+}
+button{
+    display: inline;
+    margin-left: 70px;
+    border: solid black 3px;
+    background-color: rgb(255, 206, 45);
+    width: 80px;
+    height: 30px;
+    font-size: 17px;
+}
+
+.like-box{
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-top:30px ;
+    margin-left: 100px;
+    border: 2px solid black;
+}
+
+.container{
+    padding-right: 850px;
+}
