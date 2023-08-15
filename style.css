@@ -1,4 +1,9 @@
-.flex{
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex{
     display: flex;
 }
 
@@ -10,6 +15,10 @@
     justify-content: space-between;
 }
 
+.align-center{
+    align-items: center;
+}
+
 span{
     display: inline;
 }
@@ -18,7 +27,7 @@ span{
     display: inline;
 }
 
-h2{
+.h2avatar{
     display: inline;
     padding-right: 30px;
 }
@@ -31,15 +40,44 @@ button{
     height: 30px;
     font-size: 17px;
 }
-
+.user-box{
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-top:30px ;
+    border: 2px solid black;
+    height: 200px;
+    width: 125px;
+}
 .like-box{
     padding-top: 10px;
     padding-left: 20px;
     margin-top:30px ;
     margin-left: 100px;
+    padding-bottom: 10px;
     border: 2px solid black;
+    width: 400px;
 }
 
 .container{
-    padding-right: 850px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+header{
+    background-color: rgb(3, 3, 3);
+    color: white;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+img{
+padding-bottom: 10px;
+padding-top: 10px;
+width: 90px;
+height: 90px;
+}
+
+
+.centerh1{
+    text-align: center;
 }
